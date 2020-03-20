@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+1. PŘIDÁVA DALŠÍ INFORMACE DO KODU
+10. $a++
+k $a se přičte 1
+11. $a=$b
+přidá hodnotu proměné
+12. $a!=$b 
+nerovnost, vypíše TRUE pokud se výsledek opravdu nerovná
+13. Podmínka IF
+urceni toho, jak se bude skript dale vyvyjet
+16.uživatelem definované funkce
+funkce navratové hodnoty
+variabilní funkce
+interní funkce
+anonymní funkce
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+       <!--otazka 2--> <?PHP
+        $proměnná1 =4;
+echo ($proměnná1);
+       ?>
+        <!--otazka3 --><?PHP 
+        echo'$proměná'
+        ?>
+        <!--otazka 4--><?PHP 
+        echo '<img src ="dum.jpg"alt="dum" />';
+         ?>
+       <!--otazka 5--> <?PHP  
+        define ("PI", 3.14);
+        ?>
+         <!--otazka 6--><?PHP
+         $data ="bla";
+         ?> 
+         <!--otazka 7--><?PHP
+          $data=true;
+         ?>
+         
+          <!--otazka 8--><?PHP
+              
+                  echo $a-$b    
+                 
+          ?>
+          <?PHP
+              
+                  echo $a*$b    
+                 
+          ?>
+          <?PHP
+          echo $a+$b     
+             
+          ?>
+          <?PHP
+      
+                 echo $a/$b
+          ?>
+          <!--otazka 9--> <?PHP
+           $a==$b   $a!=$b   $a>$b    $a<$b
+           ?> 
+           <!--otazka 14--><?PHP
+           if ($a==$b){
+           echo ("rovnají se");
+           }
+           ?>
+
+<!--otazka 15--><?PHP
+
+while  ?> 
+        <div>TODO write content</div>
+    </body>
+</html>
+
